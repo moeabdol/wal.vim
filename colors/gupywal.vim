@@ -4,10 +4,10 @@
 " Webpage: httpg://github.com/dylanaraps/wal
 " Description: A colorscheme that uses your terminal colors, made to work with 'wal'.
 
-" This update allows wal.vim to work with termguicolors. 
+" This update allows wal.vim to work with termguicolors.
 
 " TODO:
-    " - [ ] Test on other terminals 
+    " - [ ] Test on other terminals
     " - [ ] Test without termguicolors
     " - [ ] Setup Plugins where possible
     " - [ ] Comment and clean up script
@@ -31,7 +31,7 @@ execute "hi NonText ctermbg=NONE guifg=" . color0 . " ctermfg=0"
 execute "hi Comment ctermbg=NONE guifg=" . color8 . " ctermfg=8"
 
 hi Conceal ctermbg=NONE
-execute "hi Constant ctermbg=NONE guifg=" . color3 . "ctermfg=3"
+execute "hi Constant ctermbg=NONE guifg=" . color3 . " ctermfg=3"
 execute "hi Error guibg=" . color1 . " ctermbg=1 guifg=" . color7 . " ctermfg=7"
 execute "hi Identifier ctermbg=NONE guifg=" . color1 . " ctermfg=1 gui=BOLD cterm=BOLD"
 execute "hi Ignore guibg=" . color8 . " ctermbg=8 guifg=" . color0 . " ctermfg=0"
@@ -227,4 +227,3 @@ let g:limelight_conceal_guifg=color8
   execute "highlight CursorLineNr gui=bold guifg=" . color0 . " guibg=" . color6
   execute "highlight Visual gui=Bold guifg=" . color6 . " guibg=" . color7
   execute "highlight airline_tab gui=bold"
-
